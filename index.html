@@ -82,11 +82,13 @@
         </div>
       </section>
       <!-------------------------------------- ABOUT ME SECTIONNNNNNNN ENDS HERE -------------------------------------------------->
+     
+
       <section id="portfolio" class="flex flex-col justify-center items-center bg-gradient-to-r from-gray-700 via-gray-900 to-black text-white">
         <div class="container px-5 py-24 mx-auto text-center">
             <h1 class="text-3xl font-bold mb-6">My Projects</h1>
-            <div class="flex flex-wrap -m-4">
-                <div class="lg:w-1/4 md:w-1/2 p-4 w-full border-2 border-black rounded overflow-hidden">
+            <div class="flex space-x-6">
+                <div class="lg:w-1/4 md:w-1/2 p-4 border-2 border-black rounded overflow-hidden">
                     <a class="block relative h-48 rounded overflow-hidden">
                         <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
                     </a>
@@ -98,7 +100,19 @@
                         </div>
                     </div>
                 </div>
-                <!-- Repeat the above div for other portfolio items -->
+                <div class="lg:w-1/4 md:w-1/2 p-4 border-2 border-black rounded overflow-hidden">
+                    <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
+                    </a>
+                    <h2 class="text-xl font-bold mb-2">Another Project</h2>
+                    <div class="mt-4">
+                        <div class="flex justify-between items-center">
+                            <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onclick="openLink('https://example.com/')">View Live</button>
+                            <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600" onclick="openLink('https://github.com/example')">View Code</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more portfolio items as needed -->
             </div>
         </div>
 
