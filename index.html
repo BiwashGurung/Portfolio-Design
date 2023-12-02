@@ -473,27 +473,30 @@
     
       <!----------------------------------------------- CONTACT SECTION START FROM HERE---------------------------- -->
       
-    <!--------------FOOTER SECTION------------------------->
-<footer class="flex flex-col justify-center items-center bg-black text-white">
-    <p class="text-gray-400 text-center mx-auto">
-        Copyright &copy;<span class="footer-year"></span> by Biwash Gurung || All Right Reserved.
-    </p>
-</footer>
+      <footer class="flex flex-col justify-center items-center bg-black text-white">
+        <p class="text-gray-400 text-center mx-auto">
+            Copyright &copy;<span class="footer-year"></span> by Biwash Gurung || All Right Reserved.
+        </p>
+        <a href="#home" class="inline-flex items-center justify-center text-white bg-blue-500 hover:bg-blue-600 px-1 py-1 rounded ml-auto">
+            <div class="border-2 border-white rounded-full p-1 hover:border-blue-200 transition duration-300">
+                <i class='bx bx-up-arrow-alt text-2xs'></i>
+            </div>
+        </a>
+        
+        
+        
+    </footer>
+    
+    
+    
+    
+    
 
-<script>
-    // Footer year
-    document.querySelector("footer .footer-year").textContent =
-        new Date().getFullYear();
-
-    // Scroll to Top Function
-    function scrollToTop() {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-</script>
-
-<button id="goToTopButton" class="hidden fixed bottom-4 right-4 p-3 bg-transparent-500 text-black rounded-full shadow-md hover:bg-gray-200 focus:outline-none" aria-label="Go to top" onclick="scrollToTop()" style="border-radius: 50%;">
-    <i class="fas fa-arrow-up"></i>
-</button>
+    <script>/* Footer year */
+        document.querySelector("footer .footer-year").textContent =
+            new Date().getFullYear();
+        </script>
+    
 
     
 </body>
