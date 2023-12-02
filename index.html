@@ -473,8 +473,20 @@
     
       <!----------------------------------------------- CONTACT SECTION START FROM HERE---------------------------- -->
       
-    
-    
+    <!--------------FOOTER SECTION------------------------->
+<footer class="py-4 flex items-center justify-between">
+    <p class="text-gray-400 text-center mx-auto">
+        Copyright &copy;<span class="footer-year"></span> by Biwash Gurung || All Right Reserved.
+    </p>
+    <a href="#home" class="inline-flex items-center justify-center text-white bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded">
+        <i class='bx bx-up-arrow-alt text-base'></i>
+    </a>
+</footer>
+
+
+    <script>/* Footer year */
+        document.querySelector("footer .footer-year").textContent =
+            new Date().getFullYear();</script>
     
     
 </body>
